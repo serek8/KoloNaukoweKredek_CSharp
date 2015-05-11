@@ -1,0 +1,15 @@
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\bin\Debug\JanSeredynskiLab2.exe.config
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\bin\Debug\JanSeredynskiLab2.exe
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\bin\Debug\JanSeredynskiLab2.pdb
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.csprojResolveAssemblyReference.cache
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.FormMain.resources
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.Properties.Resources.resources
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.csproj.GenerateResource.Cache
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.exe
+c:\users\janek\documents\visual studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.pdb
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.csproj.ResolveComReference.cache
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\obj\Debug\JanSeredynskiLab2.View.FormChart.resources
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\bin\Debug\itextsharp.dll
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\bin\Debug\itextsharp.pdfa.dll
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\bin\Debug\itextsharp.xtra.dll
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab2\JanSeredynskiLab2\bin\Debug\itextsharp.xml
