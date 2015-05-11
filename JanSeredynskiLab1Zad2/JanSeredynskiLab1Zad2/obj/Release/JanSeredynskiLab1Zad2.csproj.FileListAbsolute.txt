@@ -1,0 +1,13 @@
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\bin\Release\JanSeredynskiLab1Zad2.exe.config
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\bin\Release\JanSeredynskiLab1Zad2.exe
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\bin\Release\JanSeredynskiLab1Zad2.pdb
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\bin\Release\itextsharp.dll
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\bin\Release\itextsharp.pdfa.dll
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\bin\Release\itextsharp.xtra.dll
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\bin\Release\itextsharp.xml
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\obj\Release\JanSeredynskiLab1Zad2.csprojResolveAssemblyReference.cache
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\obj\Release\JanSeredynskiLab1Zad2.FormOrder.resources
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\obj\Release\JanSeredynskiLab1Zad2.Properties.Resources.resources
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\obj\Release\JanSeredynskiLab1Zad2.csproj.GenerateResource.Cache
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\obj\Release\JanSeredynskiLab1Zad2.exe
+C:\Users\Janek\Documents\Visual Studio 2013\Projects\JanSeredynskiLab1Zad2\JanSeredynskiLab1Zad2\obj\Release\JanSeredynskiLab1Zad2.pdb
