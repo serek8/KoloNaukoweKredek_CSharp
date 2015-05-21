@@ -1,0 +1,9 @@
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\bin\Debug\JanSeredynskiLab4.exe.config
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\obj\Debug\JanSeredynskiLab4.csprojResolveAssemblyReference.cache
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\obj\Debug\JanSeredynskiLab4.FormMain.resources
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\obj\Debug\JanSeredynskiLab4.Properties.Resources.resources
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\obj\Debug\JanSeredynskiLab4.csproj.GenerateResource.Cache
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\bin\Debug\JanSeredynskiLab4.exe
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\bin\Debug\JanSeredynskiLab4.pdb
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\obj\Debug\JanSeredynskiLab4.exe
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4\JanSeredynskiLab4\obj\Debug\JanSeredynskiLab4.pdb
