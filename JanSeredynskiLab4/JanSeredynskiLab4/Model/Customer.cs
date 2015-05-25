@@ -16,13 +16,15 @@ namespace JanSeredynskiLab4.Model
             return query;
         }
 
-        /*public static List<Customer> GetByName(string name)
+        public static List<Customer> GetByName(string name)
         {
             DataClasses1DataContext dataContext = new DataClasses1DataContext();
             List<Customer> query = (from customer in dataContext.Customers
-                                    select customer).Where.ToList();  //querable by zwrocilo gdyby bez list
+                                    where customer.CompanyName == name
+                                    select customer).
+                                    ToList();  //querable by zwrocilo gdyby bez list
             return query;
-        }*/
+        }
 
 
 

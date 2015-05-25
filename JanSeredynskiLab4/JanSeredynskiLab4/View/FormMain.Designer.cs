@@ -38,6 +38,8 @@
             this.textBoxCustomerCompany = new System.Windows.Forms.TextBox();
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonShowOrders = new System.Windows.Forms.Button();
+            this.buttonGetByName = new System.Windows.Forms.Button();
+            this.textBoxGetByName = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewContent)).BeginInit();
             this.SuspendLayout();
             // 
@@ -137,11 +139,31 @@
             this.buttonShowOrders.UseVisualStyleBackColor = true;
             this.buttonShowOrders.Click += new System.EventHandler(this.buttonShowOrders_Click);
             // 
+            // buttonGetByName
+            // 
+            this.buttonGetByName.Location = new System.Drawing.Point(600, 257);
+            this.buttonGetByName.Name = "buttonGetByName";
+            this.buttonGetByName.Size = new System.Drawing.Size(179, 23);
+            this.buttonGetByName.TabIndex = 10;
+            this.buttonGetByName.Text = "Filtruj zamowienia wg nazwy";
+            this.buttonGetByName.UseVisualStyleBackColor = true;
+            this.buttonGetByName.Click += new System.EventHandler(this.buttonGetByName_Click);
+            // 
+            // textBoxGetByName
+            // 
+            this.textBoxGetByName.Location = new System.Drawing.Point(600, 289);
+            this.textBoxGetByName.Name = "textBoxGetByName";
+            this.textBoxGetByName.Size = new System.Drawing.Size(179, 20);
+            this.textBoxGetByName.TabIndex = 11;
+            this.textBoxGetByName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(791, 321);
+            this.Controls.Add(this.textBoxGetByName);
+            this.Controls.Add(this.buttonGetByName);
             this.Controls.Add(this.buttonShowOrders);
             this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.textBoxCustomerCompany);
@@ -172,6 +194,8 @@
         private System.Windows.Forms.TextBox textBoxCustomerCompany;
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonShowOrders;
+        private System.Windows.Forms.Button buttonGetByName;
+        private System.Windows.Forms.TextBox textBoxGetByName;
     }
 }
 

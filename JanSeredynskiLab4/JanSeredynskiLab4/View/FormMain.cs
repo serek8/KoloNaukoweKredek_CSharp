@@ -66,7 +66,18 @@ namespace JanSeredynskiLab4
                          join order in dataContext.Orders
                          on customer.CustomerID equals order.CustomerID
                          select new { Klient = customer.CustomerID, order.ShipName });
-            dataContext.SubmitChanges(); // Zapisujemy zmiany UZYWAJ ZAWSZE !!
+           // dataContext.SubmitChanges(); // Zapisujemy zmiany UZYWAJ ZAWSZE !!
+            dataGridViewContent.DataSource = query;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonGetByName_Click(object sender, EventArgs e)
+        {
+            var query = Model.Customer.GetByName(textBoxGetByName.Text);
             dataGridViewContent.DataSource = query;
         }
     }

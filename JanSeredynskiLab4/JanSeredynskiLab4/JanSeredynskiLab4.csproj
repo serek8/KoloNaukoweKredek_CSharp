@@ -51,6 +51,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataClassesNorthwind.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Order.cs" />
     <Compile Include="View\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
