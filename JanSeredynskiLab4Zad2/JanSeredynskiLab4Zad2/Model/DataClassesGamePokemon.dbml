@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GamePokemon" Class="DataClassesGamePokemonDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SEREK8;Initial Catalog=GamePokemon;Integrated Security=True" SettingsObjectName="JanSeredynskiLab4Zad2.Properties.Settings" SettingsPropertyName="GamePokemonConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Pokemon" Member="Pokemons">
+    <Type Name="Pokemon">
+      <Column Name="PokemonID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DamageRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HitPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Cost" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PokemonType_Pokemon" Member="PokemonType" ThisKey="PokemonTypeID" OtherKey="PokemonTypeID" Type="PokemonType" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Money" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Point" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserPokemonList" Member="UserPokemonLists">
+    <Type Name="UserPokemonList">
+      <Column Name="PokemonListID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_FightBonus_PokemonType" Member="View_FightBonus_PokemonTypes">
+    <Type Name="View_FightBonus_PokemonType">
+      <Column Name="IDPokemonTypeAgressor" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonTypeNameAgressor" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BonusRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonTypeNameDefender" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IDPokemonTypeDefender" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FightResult" Member="FightResults">
+    <Type Name="FightResult">
+      <Column Name="FightID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserAgressorID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserDefenderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonAgressor1ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonAgressor2ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonAgressor3ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonDefender1ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonDefender2ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonDefender3ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Result" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ResultDescription" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ResultDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_User_PokemonList" Member="View_User_PokemonLists">
+    <Type Name="View_User_PokemonList">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DamageRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HitPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Cost" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PokemonType" Member="PokemonTypes">
+    <Type Name="PokemonType">
+      <Column Name="PokemonTypeID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PokemonType_Pokemon" Member="Pokemons" ThisKey="PokemonTypeID" OtherKey="PokemonTypeID" Type="Pokemon" />
+    </Type>
+  </Table>
+  <Table Name="dbo.View_PokemonType_Pokemon" Member="View_PokemonType_Pokemons">
+    <Type Name="View_PokemonType_Pokemon">
+      <Column Name="PokemonTypeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DamageRate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HitPoint" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PokemonName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Cost" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

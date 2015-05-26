@@ -1,0 +1,11 @@
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\bin\Debug\JanSeredynskiLab4Zad2.exe.config
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.csprojResolveAssemblyReference.cache
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.FormLogIn.resources
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.Properties.Resources.resources
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.csproj.GenerateResource.Cache
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\bin\Debug\JanSeredynskiLab4Zad2.exe
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\bin\Debug\JanSeredynskiLab4Zad2.pdb
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.exe
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.pdb
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.View.FormMain.resources
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Debug\JanSeredynskiLab4Zad2.View.FormSignUp.resources
