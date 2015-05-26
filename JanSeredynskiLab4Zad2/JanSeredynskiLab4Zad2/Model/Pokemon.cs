@@ -144,8 +144,8 @@ namespace JanSeredynskiLab4Zad2.Model
                 else 
                 { 
                     resultOfFight = 0; 
-                    winner = "REMIS";
-                    fightInfo.First().ResultDescription = "Mecz zakończono remisem";
+                    winner = " REMIS ";
+                    fightInfo.First().ResultDescription = "Mecz zakończono remisem ";
                 
                 }
 
@@ -153,7 +153,7 @@ namespace JanSeredynskiLab4Zad2.Model
                 fightInfo.First().Result = resultOfFight;
                 dataContext.SubmitChanges();
 
-                return "Wojne wygrał" + winner;
+                return "Wojne wygrał " + winner;
             }
 
             else // wyzywam przeciwnika
@@ -165,7 +165,8 @@ namespace JanSeredynskiLab4Zad2.Model
                 fightResult.PokemonAgressor1ID = pokemon1;
                 fightResult.PokemonAgressor2ID = pokemon2;
                 fightResult.PokemonAgressor3ID = pokemon3;
-                fightResult.ResultDescription = "Nowe wyzwanie od " + Model.User.getStatusByID(thisUserID).Name +
+                fightResult.ResultDescription = "Nowe wyzwanie od " + Model.User.getStatusByID(thisUserID).Name;
+                fightResult.ResultDescription +=
                                                 " dla " + Model.User.getStatusByID(opponentID).Name;
                 dataContext.FightResults.InsertOnSubmit(fightResult);
                 dataContext.SubmitChanges(); // Zapisujemy zmiany

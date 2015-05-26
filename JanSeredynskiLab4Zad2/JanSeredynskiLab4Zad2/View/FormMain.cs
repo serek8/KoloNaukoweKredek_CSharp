@@ -91,6 +91,11 @@ namespace JanSeredynskiLab4Zad2.View
                 MessageBox.Show("Nie możesz użyć tych samych pokemonów w jednej walce !");
                 return;
             }
+            if (comboBoxOpponentName.Text == "")
+            {
+                MessageBox.Show("Wybierz przeciwnika");
+                return;
+            }
             MessageBox.Show(
                 Model.Pokemon.fight(
                     userID,
@@ -99,7 +104,7 @@ namespace JanSeredynskiLab4Zad2.View
                     Model.Pokemon.getIDByName(comboBoxPokemonToFight2.Text),
                     Model.Pokemon.getIDByName(comboBoxPokemonToFight3.Text))
                             );
-
+            refresh();
         }
         /// <summary>
         /// Wyswietla panel do walki z innymi graczami
@@ -125,6 +130,7 @@ namespace JanSeredynskiLab4Zad2.View
             if (Model.Pokemon.buyPokemon(comboBoxBuyPokemon.Text, userID) == -1)
                 MessageBox.Show("Nie stać Cię na tego pokemona");
             else MessageBox.Show("Pokemon został kupiony ;-)");
+            refresh();
         }
         #endregion
         #region Odświerzanie
@@ -152,9 +158,9 @@ namespace JanSeredynskiLab4Zad2.View
             labelMoneyValue.Text = Model.User.getStatusByID(userID).Money.ToString();
             for (int i = 0; i < Model.Pokemon.getMyPokemonList(userID).Count(); i++)
             {
-                comboBoxPokemonToFight1.Items.Add(Model.Pokemon.getPokemonList()[i].Name);
-                comboBoxPokemonToFight2.Items.Add(Model.Pokemon.getPokemonList()[i].Name);
-                comboBoxPokemonToFight3.Items.Add(Model.Pokemon.getPokemonList()[i].Name);
+                comboBoxPokemonToFight1.Items.Add(Model.Pokemon.getMyPokemonList(userID)[i].Name);
+                comboBoxPokemonToFight2.Items.Add(Model.Pokemon.getMyPokemonList(userID)[i].Name);
+                comboBoxPokemonToFight3.Items.Add(Model.Pokemon.getMyPokemonList(userID)[i].Name);
             }
             for (int i = 0; i < Model.User.getUserListToFight(userID).Count(); i++)
             {

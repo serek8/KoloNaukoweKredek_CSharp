@@ -8,3 +8,4 @@ D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\
 D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Release\JanSeredynskiLab4Zad2.csproj.GenerateResource.Cache
 D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Release\JanSeredynskiLab4Zad2.exe
 D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Release\JanSeredynskiLab4Zad2.pdb
+D:\Programowanie\C_Sharp\KREDEK\JanSeredynskiLab4Zad2\JanSeredynskiLab4Zad2\obj\Release\JanSeredynskiLab4Zad2.csprojResolveAssemblyReference.cache
