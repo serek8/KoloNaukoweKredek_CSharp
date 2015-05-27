@@ -1,0 +1,17 @@
+﻿@model List<JanSeredynskiLabX.Models.Movie>
+@{
+    ViewBag.Title = "ShowAll";
+}
+
+<h2>ShowAll</h2>
+<div>
+    @{ foreach (var item in Model)
+       {
+           <p>Nazwa: @item.Name</p>
+           <p>Data: @item.ReleaseDate.ToShortTimeString()</p>
+        @Html.ActionLink("Usuń", "DeleteById", new {@id = item.Id })
+        @Html.ActionLink("Edytuj", "UpdateById", new { @id = item.Id})
+           }}
+
+
+</div>
