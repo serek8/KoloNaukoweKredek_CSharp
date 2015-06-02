@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "index";
+}
+
+<h2>Menu prawdziwego PizzoŻercy</h2>
+<table>
+    <tr>
+        <td>Nazwa</td>
+        <td>Składniki </td>
+        <td>Cena<br /></td>
+        <td></td>
+        
+    </tr>
+    @foreach (var item in ViewBag.PizzaMenuList)
+    {
+        <tr>
+            <td> @item.Name         </td>
+            <td> @item.Ingredient   </td>
+            <td> @item.Price </td>
+            <td>
+                @using (Html.BeginForm("Index", "Menu", FormMethod.Post))
+                {
+                    <input type="hidden" name="pizzaOrderID" value="@(ViewBag.PizzaOrderID)" />
+                    <input type="hidden" name="pizzaMenuID" value="@(item.PizzaMenuID)" />
+                    <input type="submit" value="Dodaj do koszyka" />
+                }
+
+            </td>
+        </tr>
+    }
+</table>
+<h2>Twoje zamówienia:</h2>
+<table>
+@{
+    if (ViewBag.PizzaOrderList != null)
+    {
+
+        int sum = 0;
+        foreach (var item in ViewBag.PizzaOrderList)
+        {
+            sum += item.Price;
+        <tr>
+            <td>@item.Name</td>
+        </tr>
+            }
+            <tr><td><p>Razem: @sum PLN</p></td></tr>
+    } 
+}
+</table>
+@if(ViewBag.PizzaOrderList != null)
+{
+    using (Html.BeginForm("Buy", "Menu", FormMethod.Post))
+    {
+      <input type="hidden" name="pizzaOrderID" value="@(ViewBag.PizzaOrderID)" />
+                    
+      
+                
+     <div class="editor-label">
+            
+     </div>
+    
+    
+    <div class="float-right">
+        Adres:
+    <input type="label" id="adress" name="adress" />
+        <input type="submit" onclick="alert('Pizza zostanie dostarczona za 20min');" value="Dodaj do koszyka" />
+    </div>
+    }
+}
+    

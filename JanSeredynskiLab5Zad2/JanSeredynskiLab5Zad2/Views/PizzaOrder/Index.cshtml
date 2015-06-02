@@ -1,0 +1,34 @@
+﻿@model IEnumerable<JanSeredynskiLab5Zad2.Models.PizzaOrder>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Strefa pracownika</h2>
+@{var query = (from c in Model
+               orderby c.OrderTime descending
+               select c).ToList();
+}
+
+@foreach (var item in query)
+{
+    <table>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsReceived)
+            </td>
+            <td>
+                @Html.ActionLink("Dostarczono", "Edit", new { id = item.PizzaOrderID })
+
+            </td>
+        </tr>
+    </table>
+}
+
+
